@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1677615005 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\ast.c
+	<stdlib.h>
+	"utilities.h"
+	"ast.h"
+
+1677615005 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\utilities.h
+	<stdbool.h>
+	<assert.h>
+	"token.h"
+	"file_location.h"
+
+1677615005 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\token.h
+
+1677615005 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\file_location.h
+	"token.h"
+
+1677615005 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\ast.h
+	<stdbool.h>
+	"token.h"
+	"file_location.h"
+
+1677615005 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\file_location.c
+	"file_location.h"
+
+1677615005 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\id_attrs.c
+	<stdlib.h>
+	<stddef.h>
+	"utilities.h"
+	"id_attrs.h"
+
+1677615005 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\id_attrs.h
+	"token.h"
+	"file_location.h"
+
+1677642511 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\lexer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	"lexer.h"
+	"utilities.h"
+
+1677615005 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\lexer.h
+	<stdbool.h>
+	"token.h"
+
+1677615005 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\lexer_output.c
+	<stdio.h>
+	<stdlib.h>
+	"lexer.h"
+
+1677615005 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\token.c
+	"token.h"
+
+1677615005 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\unparser.c
+	<stdio.h>
+	"ast.h"
+	"utilities.h"
+	"unparserInternal.h"
+
+1677615005 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\unparserinternal.h
+	"unparser.h"
+
+1677615005 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\unparser.h
+	<stdio.h>
+	"ast.h"
+
+1677615005 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\utilities.c
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<assert.h>
+	"token.h"
+	"file_location.h"
+	"utilities.h"
+
+1677640250 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<unistd.h>
+	"parser.c"
+	"parserInternal.h"
+	"ast.h"
+	"unparser.h"
+
+1677636233 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\parser.h
+	"ast.h"
+
+1677691937 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\parserinternal.h
+	"parser.h"
+
+1677693139 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<unistd.h>
+	"parserInternal.h"
+	"lexer.h"
+	"utilities.h"
+

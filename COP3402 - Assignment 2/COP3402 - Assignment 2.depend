@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1675820260 source:c:\users\fletcher\desktop\cop3402 - assignment 2\lexer_output.c
+	<stdio.h>
+	<stdlib.h>
+	"lexer.h"
+
+1675647174 c:\users\fletcher\desktop\cop3402 - assignment 2\lexer.h
+	<stdbool.h>
+	"token.h"
+
+1675647174 c:\users\fletcher\desktop\cop3402 - assignment 2\token.h
+
+1676409066 source:c:\users\fletcher\desktop\cop3402 - assignment 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<unistd.h>
+	"lexer.h"
+	"lexer_output.h"
+
+1675647174 source:c:\users\fletcher\desktop\cop3402 - assignment 2\token.c
+	"token.h"
+
+1675647174 source:c:\users\fletcher\desktop\cop3402 - assignment 2\utilities.c
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	"utilities.h"
+
+1675647174 c:\users\fletcher\desktop\cop3402 - assignment 2\utilities.h
+
+1676409762 source:c:\users\fletcher\desktop\cop3402 - assignment 2\lexer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	"lexer.h"
+	"utilities.h"
+
+1675647174 c:\users\fletcher\desktop\cop3402 - assignment 2\lexer_output.h
+	"lexer.h"
+
+1677641459 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 2\lexer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	"lexer.h"
+	"utilities.h"
+
+1675647174 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 2\lexer.h
+	<stdbool.h>
+	"token.h"
+
+1675647174 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 2\token.h
+
+1675647174 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 2\utilities.h
+
+1675820260 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 2\lexer_output.c
+	<stdio.h>
+	<stdlib.h>
+	"lexer.h"
+
+1675647174 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 2\token.c
+	"token.h"
+
+1675647174 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 2\utilities.c
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	"utilities.h"
+
+1677640332 source:c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<unistd.h>
+	"lexer.h"
+	"lexer_output.h"
+
+1675647174 c:\users\fletcher\documents\fletcher's_docs\code\c\cop3402 - spring 2023\cop3402 - assignment 2\lexer_output.h
+	"lexer.h"
+

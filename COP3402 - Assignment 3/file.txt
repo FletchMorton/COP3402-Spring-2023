@@ -1,0 +1,3 @@
+const something = 121, somethingother = 122, somethirdthing = 123;
+var ok, alright, fine;
+.

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="COP3402 - Assignment 4" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/COP3402 - Assignment 4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/COP3402 - Assignment 4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ast.h" />
+		<Unit filename="code.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="code.h" />
+		<Unit filename="compiler_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file_location.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file_location.h" />
+		<Unit filename="gen_code.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gen_code.h" />
+		<Unit filename="hw4-vmtest-proc0.pl0" />
+		<Unit filename="hw4-vmtest-proc0.vmi" />
+		<Unit filename="hw4-vmtest-proc0.vmo" />
+		<Unit filename="hw4-vmtest-proc1.pl0" />
+		<Unit filename="hw4-vmtest-proc1.vmi" />
+		<Unit filename="hw4-vmtest-proc1.vmo" />
+		<Unit filename="hw4-vmtest-proc2.pl0" />
+		<Unit filename="hw4-vmtest-proc2.vmi" />
+		<Unit filename="hw4-vmtest-proc2.vmo" />
+		<Unit filename="hw4-vmtest-proc3.pl0" />
+		<Unit filename="hw4-vmtest-proc3.vmi" />
+		<Unit filename="hw4-vmtest-proc3.vmo" />
+		<Unit filename="hw4-vmtest-proc4.pl0" />
+		<Unit filename="hw4-vmtest-proc4.vmi" />
+		<Unit filename="hw4-vmtest-proc4.vmo" />
+		<Unit filename="hw4-vmtest-proc5.pl0" />
+		<Unit filename="hw4-vmtest-proc5.vmi" />
+		<Unit filename="hw4-vmtest-proc5.vmo" />
+		<Unit filename="hw4-vmtest-proc6.pl0" />
+		<Unit filename="hw4-vmtest-proc6.vmi" />
+		<Unit filename="hw4-vmtest-proc6.vmo" />
+		<Unit filename="hw4-vmtest-proc7.pl0" />
+		<Unit filename="hw4-vmtest-proc7.vmi" />
+		<Unit filename="hw4-vmtest-proc7.vmo" />
+		<Unit filename="hw4-vmtest-proc8.pl0" />
+		<Unit filename="hw4-vmtest-proc8.vmi" />
+		<Unit filename="hw4-vmtest-proc8.vmo" />
+		<Unit filename="hw4-vmtest-proc9.pl0" />
+		<Unit filename="hw4-vmtest-proc9.vmi" />
+		<Unit filename="hw4-vmtest-proc9.vmo" />
+		<Unit filename="hw4-vmtest-procA.pl0" />
+		<Unit filename="hw4-vmtest-procA.vmi" />
+		<Unit filename="hw4-vmtest-procA.vmo" />
+		<Unit filename="hw4-vmtest0.pl0" />
+		<Unit filename="hw4-vmtest0.vmi" />
+		<Unit filename="hw4-vmtest0.vmo" />
+		<Unit filename="hw4-vmtest1.pl0" />
+		<Unit filename="hw4-vmtest1.vmi" />
+		<Unit filename="hw4-vmtest1.vmo" />
+		<Unit filename="hw4-vmtest2.pl0" />
+		<Unit filename="hw4-vmtest2.vmi" />
+		<Unit filename="hw4-vmtest2.vmo" />
+		<Unit filename="hw4-vmtest3.pl0" />
+		<Unit filename="hw4-vmtest3.vmi" />
+		<Unit filename="hw4-vmtest3.vmo" />
+		<Unit filename="hw4-vmtest4.pl0" />
+		<Unit filename="hw4-vmtest4.vmi" />
+		<Unit filename="hw4-vmtest4.vmo" />
+		<Unit filename="hw4-vmtest5.pl0" />
+		<Unit filename="hw4-vmtest5.vmi" />
+		<Unit filename="hw4-vmtest5.vmo" />
+		<Unit filename="hw4-vmtest6.pl0" />
+		<Unit filename="hw4-vmtest6.vmi" />
+		<Unit filename="hw4-vmtest6.vmo" />
+		<Unit filename="hw4-vmtest7.pl0" />
+		<Unit filename="hw4-vmtest7.vmi" />
+		<Unit filename="hw4-vmtest7.vmo" />
+		<Unit filename="hw4-vmtest8.pl0" />
+		<Unit filename="hw4-vmtest8.vmi" />
+		<Unit filename="hw4-vmtest8.vmo" />
+		<Unit filename="hw4-vmtest9.pl0" />
+		<Unit filename="hw4-vmtest9.vmi" />
+		<Unit filename="hw4-vmtest9.vmo" />
+		<Unit filename="hw4-vmtestA.pl0" />
+		<Unit filename="hw4-vmtestA.vmi" />
+		<Unit filename="hw4-vmtestA.vmo" />
+		<Unit filename="id_attrs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="id_attrs.h" />
+		<Unit filename="id_use.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="id_use.h" />
+		<Unit filename="instruction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="instruction.h" />
+		<Unit filename="label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="label.h" />
+		<Unit filename="lexer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lexer.h" />
+		<Unit filename="lexer_output.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lexer_output.h" />
+		<Unit filename="lexical_address.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lexical_address.h" />
+		<Unit filename="machine_types.h" />
+		<Unit filename="parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parser.h" />
+		<Unit filename="parserInternal.h" />
+		<Unit filename="reserved.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="reserved.h" />
+		<Unit filename="scope.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scope.h" />
+		<Unit filename="scope_check.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scope_check.h" />
+		<Unit filename="symtab.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="symtab.h" />
+		<Unit filename="token.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="token.h" />
+		<Unit filename="unparser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="unparser.h" />
+		<Unit filename="unparserInternal.h" />
+		<Unit filename="utilities.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utilities.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
